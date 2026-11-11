@@ -1,5 +1,10 @@
 # Incott
 
+## CCM web integration
+
+The new community hub is integrated at [Codex Community Malaysia](https://starkfiber.my/training/codexcommunity#community-hub). Source and setup are in [ccm_web](ccm_web/README.md): curated resources, search, saved items and a personal build checklist. This first release uses browser-local progress and the existing WhatsApp discussion group; it does not yet migrate the legacy Firebase/mobile publishing system.
+
+
 Legacy news application source in the [Stark Fiber Enterprise](https://starkfiber.my) portfolio.
 
 ## Repository layout
@@ -20,3 +25,4 @@ The existing dependency constraints belong to an older Flutter/Dart generation. 
 5. Review administrator authorisation, backend rules, analytics and advertising consent before public deployment.
 
 No live Firebase configuration, customer content or mobile release was changed during this repository review.
+
